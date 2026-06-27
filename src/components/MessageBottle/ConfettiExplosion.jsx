@@ -1,0 +1,1 @@
+import { useEffect } from "react"; import confetti from "canvas-confetti"; function ConfettiExplosion() { useEffect(() => { confetti({ particleCount: 300, spread: 180, startVelocity: 40, origin: { x: 0.5, y: 0.5 } }); }, []); return null; } export default ConfettiExplosion;

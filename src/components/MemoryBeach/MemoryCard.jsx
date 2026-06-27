@@ -1,0 +1,1 @@
+import { motion } from "framer-motion"; function MemoryCard({ memory, onClick }) { return ( <motion.div className="memory-card" whileHover={{ y: -20, rotateY: 15, scale: 1.05 }} transition={{ duration: 0.4 }} onClick={onClick} > <div className="memory-icon"> {memory.icon} </div> <h3> {memory.title} </h3> <p> Tap to reveal ✨ </p> </motion.div> ); } export default MemoryCard;

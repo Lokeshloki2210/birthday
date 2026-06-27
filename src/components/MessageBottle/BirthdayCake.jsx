@@ -1,0 +1,1 @@
+import { motion } from "framer-motion"; function BirthdayCake() { return ( <motion.div className="birthday-cake" initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1, duration: 1 }} > 🎂 </motion.div> ); } export default BirthdayCake;
